@@ -1,0 +1,69 @@
+body {
+  background-color: #ff69b4;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+  padding: 20px;
+  grid-column-start: 1;
+  grid-row-end: 12;
+  background-color: #ff69b4;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.botao {
+  text-align: center;
+}
+.botao a {
+  display: inline-block; /* Fazer os botões aparecerem na mesma linha */
+  background-color: #fffefe; /* Cor de fundo dos botões */
+  color: #ff69b4; /* Cor do texto nos botões */
+  padding: 10px 20px; /* Espaçamento interno dos botões (ajuste conforme necessário) */
+  margin: 5px; /* Espaçamento entre os botões */
+  border: 1px solid #161616; /* Borda dos botões */
+  text-decoration: none; /* Remover sublinhado dos links */
+  border-radius: 5px; /* Borda arredondada dos botões */
+}
+
+.texto {
+  text-align: center;
+  color: #fffefe;
+}
+
+.texto-p {
+  color: #fffefe;
+  font-size: 23px;
+  margin: 15px;
+}
+
+.footer {
+  background-color: #ff69b4; /* Cor de fundo do rodapé, você pode personalizá-la */
+  color: #fdfcfd; /* Cor do texto no rodapé, você pode personalizá-la */
+  text-align: center; /* Alinhar o texto ao centro */
+  padding: 10px; /* Espaçamento interno para o rodapé */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.texto {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.link {
+  color: rgb(255, 124, 227); /* Cor do texto do link */
+  text-decoration: double; /* Remove o sublinhado */
+  font-weight: bold; /* Define o peso da fonte (negrito) */
+  font-size: 16px; /* Tamanho da fonte em pixels */
+  background-color: rgb(255, 255, 255); /* Cor de fundo do link */
+  padding: 5px 10px; /* Preenchimento para espaçamento interno */
+  border: 3px solid rgb(243, 238, 238); /* Borda ao redor do link */
+  border-radius: 5px; /* Borda arredondada */
+}
